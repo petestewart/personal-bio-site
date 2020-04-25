@@ -51,15 +51,15 @@ const createProjectCards = (contentArray) => {
         domString += ` <div class="cardTitle">${projects[i].title}</div>`;
         domString += ` <div class="cardDescription">${projects[i].description}</div>`;
         domString += ` <div class="cardTechnologiesUsed">${projects[i].technologiesUsed}</div>`;
-        domString += ` <div class="cardUrl">${projects[i].url}</div>`;
-        domString += ` <div class="cardGitHubUrl">${projects[i].githubUrl}</div>`;
+        domString += ` <div class="cardLink"><a href="${projects[i].url}">WebLink</a></div>`;
+        domString += ` <div class="cardLink"><a href="${projects[i].githubUrl}">GitHub</a></div>`;
         domString += '</div>';
     };
     return domString;
 }
 
 const init = () => {
-    printToDom('#projectsPage', createProjectCards(projects));
+    printToDom('#projectsGrid', createProjectCards(projects));
 }
 
 init();
