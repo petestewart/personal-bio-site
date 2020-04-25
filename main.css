@@ -1,3 +1,16 @@
 body {
     background-color: darkgray;
 }
+
+.card {
+    width: 300px;
+    border: 1px solid lightgray;
+    margin: 10px;
+}
+
+#projectsPage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
