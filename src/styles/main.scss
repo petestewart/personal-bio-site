@@ -48,19 +48,26 @@ nav ul li {
     border: 1px solid lightgray;
     margin: 10px;
     text-align: center;
+    padding: 15px;
+
+    .cardTitle {
+        font-size: 1em;
+        font-weight: bold;
+        padding: 15px 0px;
+    }
+
+    .cardDescription {
+        font-size: 1em;
+        padding: 7px 0px;
+    }
+
+    img {
+        width: 250px;
+    }
 }
 
-.card .cardTitle {
-    font-size: 1em;
-    font-weight: bold;
-    padding: 15px 0px;
-}
-.card .cardDescription {
-    font-size: 1em;
-    padding: 7px 0px;
-}
 
-.card .cardTechnologiesUsed {
+.cardTechnologiesUsed {
     font-size: .8em;
     padding: 7px 0px;
     color: gray;
