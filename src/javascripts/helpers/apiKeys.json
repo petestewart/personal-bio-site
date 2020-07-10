@@ -1,0 +1,11 @@
+{
+  "firebaseConfig": {
+  "apiKey": "AIzaSyB6171AukueUtBm5efUR8mV6fP2RwpClrc",
+  "authDomain": "personal-bio-site-94a7c.firebaseapp.com",
+  "databaseURL": "https://personal-bio-site-94a7c.firebaseio.com",
+  "projectId": "personal-bio-site-94a7c",
+  "storageBucket": "personal-bio-site-94a7c.appspot.com",
+  "messagingSenderId": "927410761304",
+  "appId": "1:927410761304:web:242d6f7eb6612f3ab2a42d"
+  }
+}
