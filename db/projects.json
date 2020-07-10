@@ -1,0 +1,48 @@
+
+{
+    "project1" : {
+      "title": "COVID-19 Mayor Challenge",
+      "screenshot": "https://raw.githubusercontent.com/petestewart72/mayorchallenge/master/screenshot.png",
+      "description": "This web app was an attempt to simplify the presentation of the city's official COVID-19 reopening plan by using a cards and filter buttons for each phase of the plan",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://covid-mayor-challenge.web.app/",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+    "project2": {
+      "title": "Hitchhiker's Guide Chat App",
+      "screenshot": "https://raw.githubusercontent.com/petestewart72/chatty-epsilon-hitchhiker/master/src/images/screenshot.png",
+      "description": "A HG2G-themed chatroom simulation app built as a group project assignment during my enrollment at Nashville Software School while we were learning to use modules and webpack.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://chatty-hitchhiker-66a0d.web.app/",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+    "project3": {
+      "title": "Sweaty's Sweatpants Store",
+      "screenshot": "https://raw.githubusercontent.com/petestewart72/pants-sweat-pants/master/screenshots/screenshot1.jpg",
+      "description": "A fictitious e-commerce site for a company that sells sweatpants built as a group project assignment during my enrollment at Nashville Software School while we were learning to use HTML, CSS, JavaScript, and Bootstrap.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://sweatys-b094a.web.app/",
+      "githubUrl": "https://github.com/petestewart72/pants-sweat-pants"
+    },
+    "project4": {
+      "title": "Cool Project4",
+      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    },
+    "project5": {
+      "title": "Cool Project5",
+      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "description": "This is the best project",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "available": true,
+      "url": "https://github.com/nss-evening-cohort-8/js-part-deux",
+      "githubUrl": "https://github.com/nss-evening-cohort-8/js-part-deux"
+    }
+  }
