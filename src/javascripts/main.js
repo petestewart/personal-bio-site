@@ -24,21 +24,6 @@ const createProjectCards = () => projectsData.getProjectsData()
   })
   .catch((err) => { console.error(err); });
 
-// const createProjectCards = (contentArray) => {
-//   let domString = '';
-//   for (let i = 0; i < contentArray.length; i += 1) {
-//     domString += '<div class="card">';
-//     domString += ` <div class="cardTitle">${project.title}</div>`;
-//     domString += ` <div class="cardImage"><img src="${project.screenshot}" alt="screenshot"></div>`;
-//     domString += ` <div class="cardDescription">${project.description}</div>`;
-//     domString += ` <div class="cardTechnologiesUsed">${project.technologiesUsed}</div>`;
-//     domString += ` <div class="cardLink"><a href="${project.url}">WebLink</a></div>`;
-//     domString += ` <div class="cardLink"><a href="${project.githubUrl}">GitHub</a></div>`;
-//     domString += '</div>';
-//   }
-//   return domString;
-// };
-
 const init = () => {
   createProjectCards();
 };
