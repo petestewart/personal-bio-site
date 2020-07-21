@@ -1,10 +1,139 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
-body {
-    background-color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
 }
+
+body {
+    background-color: black;
+    font-family: 'IBM Plex Sans', 'Source Sans Pro', sans-serif;
+}
+
+
+
+.mycontainer {
+    margin-top: 200px;
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+
+    span {
+        display: block;
+        // text-transform: uppercase;
+    }
+
+    .text0 {
+        font-size: 30px;
+        color: grey;
+        animation: fadein 1s 1;
+    }
+
+    .text1 {
+        text-align: center;
+        color: white;
+        font-size: 60px;
+        font-weight: 700;
+        width: 100%;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+        background: black;
+        position: relative;
+        animation: text 4s 1;
+        // z-index: 5;
+    }
+
+    .text2 {
+        font-size: 30px;
+        color: grey;
+        // z-index: 1;
+        // animation: text 3s 1;
+    }
+
+    @keyframes fadein {
+        0%{
+            filter: blur(1.5rem);
+        }
+        30%{
+            filter: blur(.5rem);
+        }
+        100%{
+            filter: blur(0);
+        }
+    }
+
+    @keyframes text {
+        0%{
+            color: black;
+            margin-bottom: -40px;
+        }
+        25%{
+            color: black;
+            margin-bottom: -40px;
+        }
+        50%{
+            letter-spacing: 12px;
+            margin-bottom: -40px;
+        }
+        75%{
+            letter-spacing: 4px;
+            margin-bottom: -40px;
+        }
+
+    }
+
+    .down-button {
+        border: 3px solid #212529;
+        color: #212529;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 300ms linear all;
+        animation: delay 5s 1;
+    }
+
+    .down-button:hover {
+        border: 3px solid grey;
+        color: grey;
+        transform: rotate(90deg);
+        // animation: rotate .5s 1;
+        transition: 300ms linear all;
+    }
+
+    @keyframes rotate {
+        0%{
+            transform: rotate(0deg)
+        }
+        50%{
+            transform: rotate(45deg)
+        }
+        100%{
+            transform: rotate(90deg)
+        }
+    }
+
+    @keyframes delay {
+        0%{
+            opacity: 0;
+        }
+        95%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
 
 header {
     background-color: #090B20;
@@ -14,20 +143,19 @@ header {
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-}
 
-header h1 {
-    display: flex;
-}
-
-nav ul {
-    text-align: center;
+    h1 {
+        display: flex;
+    }
 }
 
 nav ul li {
     display: inline-block;
     margin: 10px 35px;
 }
+
+
+
 
 #bioPage {
     background-color: #252740;
