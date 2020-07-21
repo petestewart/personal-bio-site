@@ -9,6 +9,10 @@ Currently it is merely a rough outline with minimal styling and content.
 ## Screenshot
 ![screenshot](./screenshot.png)
 
+
+## Deployed Project
+https://personal-bio-site-94a7c.web.app/
+
 ## Contributors
 * [Pete Stewart](https://github.com/petestewart72)
 
