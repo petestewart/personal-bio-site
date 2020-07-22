@@ -60,11 +60,11 @@ a, a:hover {
 }
 
 .section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid grey;
+    // border: 1px solid grey;
 }
 
 #profile-pic {
@@ -92,6 +92,10 @@ a, a:hover {
     }
 }
 
+#bio-top {
+    background-color: rgb(53, 53, 53);
+    // color: black;
+}
 #bio {
     padding-left: 200px;
     padding-right: 200px;
@@ -265,49 +269,49 @@ nav ul li {
 
 
 
-.card {
-    width: 300px;
-    border: 1px solid lightgray;
-    margin: 10px;
-    text-align: center;
-    padding: 15px;
+// .card {
+//     width: 300px;
+//     border: 1px solid lightgray;
+//     margin: 10px;
+//     text-align: center;
+//     padding: 15px;
 
-    .cardTitle {
-        font-size: 1em;
-        font-weight: bold;
-        padding: 15px 0px;
-    }
+//     .cardTitle {
+//         font-size: 1em;
+//         font-weight: bold;
+//         padding: 15px 0px;
+//     }
 
-    .cardDescription {
-        font-size: 1em;
-        padding: 7px 0px;
-    }
+//     .cardDescription {
+//         font-size: 1em;
+//         padding: 7px 0px;
+//     }
 
-    img {
-        width: 250px;
-    }
-}
+//     img {
+//         width: 250px;
+//     }
+// }
 
 
-.cardTechnologiesUsed {
-    font-size: .8em;
-    padding: 7px 0px;
-    color: gray;
-}
+// .cardTechnologiesUsed {
+//     font-size: .8em;
+//     padding: 7px 0px;
+//     color: gray;
+// }
 
-.card .cardLink {
-    padding: 3px 0px;
-}
+// .card .cardLink {
+//     padding: 3px 0px;
+// }
 
-.card .cardLink a:link,
-.card .cardLink a:visited {
-    color: #F92E49;
-    text-decoration: none;   
-}
+// .card .cardLink a:link,
+// .card .cardLink a:visited {
+//     color: #F92E49;
+//     text-decoration: none;   
+// }
 
-.card .cardLink a:hover {
-    color: #252740;
-}
+// .card .cardLink a:hover {
+//     color: #252740;
+// }
 
 #projectsPage {
     margin: 50px 200px;
