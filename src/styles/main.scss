@@ -6,23 +6,75 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-color: black;
     font-family: 'IBM Plex Sans', 'Source Sans Pro', sans-serif;
+    color: lightgray
+}
+
+a, a:hover {
+    color:inherit;
+    text-decoration: none;
+   }
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    overflow: hidden;
+    opacity: .7;
+
+    img {
+        width: 40vh;
+        animation: subtlefade 1s 1;
+    }
+
+    @keyframes subtlefade {
+        0%{
+            opacity: .1;
+        }
+        50%{
+            opacity: .7
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+}
+
+#bio {
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 2rem;
+        p {
+            line-height: 3rem;   /* within paragraph */
+            margin-bottom: 3rem; /* between paragraphs */
+            }
 }
 
 
-
-.mycontainer {
-    margin-top: 200px;
+#welcome-splash {
+    // margin-top: 100px;
     // text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // position: absolute;
-    // top: 50%;
-    // left: 50%;
-    // transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     span {
         display: block;
@@ -38,30 +90,32 @@ body {
     .text1 {
         text-align: center;
         color: white;
-        font-size: 60px;
+        font-size: 85px;
         font-weight: 700;
         width: 100%;
         letter-spacing: 4px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         background: black;
         position: relative;
-        animation: text 4s 1;
-        // z-index: 5;
+        animation: text 3s 1;
     }
 
     .text2 {
         font-size: 30px;
         color: grey;
-        // z-index: 1;
-        // animation: text 3s 1;
+        animation: fadein 3s 1;
     }
 
     @keyframes fadein {
-        0%{
+        0%{ opacity: 0;
             filter: blur(1.5rem);
         }
-        30%{
-            filter: blur(.5rem);
+        50%{ opacity: 0;
+            filter: blur(1.5rem);
+        }
+        75%{
+            opacity: 1;
+            filter: blur(1.5rem);
         }
         100%{
             filter: blur(0);
@@ -87,53 +141,64 @@ body {
         }
 
     }
+}
 
-    .down-button {
-        border: 3px solid #212529;
-        color: #212529;
-        border-radius: 50%;
-        height: 60px;
-        width: 60px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 300ms linear all;
-        animation: delay 5s 1;
+.section-title {
+    margin: 20px;
+}
+
+#technologies {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.down-button {
+    border: 3px solid #212529;
+    color: #212529;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms linear all;
+    animation: delay 1s 1;
+}
+
+.down-button:hover {
+    border: 3px solid grey;
+    color: grey;
+    transform: rotate(90deg);
+    // animation: rotate .5s 1;
+    transition: 200ms linear all;
+    cursor: pointer;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg)
     }
-
-    .down-button:hover {
-        border: 3px solid grey;
-        color: grey;
-        transform: rotate(90deg);
-        // animation: rotate .5s 1;
-        transition: 300ms linear all;
+    50%{
+        transform: rotate(45deg)
     }
-
-    @keyframes rotate {
-        0%{
-            transform: rotate(0deg)
-        }
-        50%{
-            transform: rotate(45deg)
-        }
-        100%{
-            transform: rotate(90deg)
-        }
-    }
-
-    @keyframes delay {
-        0%{
-            opacity: 0;
-        }
-        95%{
-            opacity: 0;
-        }
-        100%{
-            opacity: 1;
-        }
+    100%{
+        transform: rotate(90deg)
     }
 }
 
+@keyframes delay {
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 header {
     background-color: #090B20;
@@ -154,22 +219,13 @@ nav ul li {
     margin: 10px 35px;
 }
 
-
-
-
 #bioPage {
     background-color: #252740;
     color: white;
     padding: 50px;
 }
 
-#technologiesPage {
-    background-color: white;
-    margin: -20px 200px 20px;
-    border: 2px solid lightgray;
-    box-shadow: 2px 2px gray;
-    padding: 30px;
-}
+
 
 .card {
     width: 300px;
