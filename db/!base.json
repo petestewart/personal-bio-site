@@ -1,5 +1,5 @@
 
-{
+{ "projects": {
     "project1" : {
       "title": "COVID-19 Mayor Challenge",
       "screenshot": "https://raw.githubusercontent.com/petestewart72/mayorchallenge/master/screenshot.png",
@@ -45,4 +45,4 @@
       "url": "https://pinterest-bbffb.web.app/",
       "githubUrl": "https://github.com/petestewart72/pinterest"
     }
-  }
+}}

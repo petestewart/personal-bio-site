@@ -21,7 +21,12 @@ a, a:hover {
     text-decoration: none;
    }
 
+.hide {
+    display: none
+}
+
 #social-links {
+    z-index: 2;
     position: fixed;
     margin: 20px;
     font-size: 1.5rem;
@@ -42,6 +47,7 @@ a, a:hover {
 
 
 #main-menu {
+    z-index: 2;
     position: fixed;
     right: 0%;
     top: 0%;
@@ -50,13 +56,42 @@ a, a:hover {
     color: grey;
     letter-spacing: .3rem;
     opacity: 0.7;
+    // transform: rotate(0deg);
+    // transition: transform 150ms ease-out; // not working for some reason
+
+    i:hover {
+        opacity: 1;
+        cursor: pointer;
+        color: lightgrey;
+        transform: rotate(90deg);
+        transition: transform 150ms ease-in;
+        // transition: 150ms linear all;
+    }
 }
 
-#main-menu:hover {
-    opacity: 1;
+ul {
+    list-style-type: none;
+}
+
+.go-dark {
+    filter: blur(50px);
+    z-index: -1;
+    pointer-events: none;
+}
+
+
+#nav-menu {
+    font-size: 2.7rem;
+    color: lightgrey;
+    margin: 20px 40px 0px 0px;
+    text-transform: uppercase;
+    text-align: right;
     cursor: pointer;
-    transform: rotate(90deg);
-    transition: 300ms linear all;
+
+    li:hover {
+        color: white;
+    }
+    
 }
 
 .section {
@@ -269,49 +304,36 @@ nav ul li {
 
 
 
-// .card {
-//     width: 300px;
-//     border: 1px solid lightgray;
-//     margin: 10px;
-//     text-align: center;
-//     padding: 15px;
+.card {
+    // border: 1px solid lightgray;
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(53, 53, 53);
 
-//     .cardTitle {
-//         font-size: 1em;
-//         font-weight: bold;
-//         padding: 15px 0px;
-//     }
+    img {
+        width: 250px;
+    }
+}
 
-//     .cardDescription {
-//         font-size: 1em;
-//         padding: 7px 0px;
-//     }
-
-//     img {
-//         width: 250px;
-//     }
-// }
+.portfolio-links {
+    letter-spacing: 1rem;
+}
 
 
-// .cardTechnologiesUsed {
-//     font-size: .8em;
-//     padding: 7px 0px;
-//     color: gray;
-// }
+.card .cardLink {
+    padding: 3px 0px;
+}
 
-// .card .cardLink {
-//     padding: 3px 0px;
-// }
+.card .cardLink a:link,
+.card .cardLink a:visited {
+    color: #F92E49;
+    text-decoration: none;   
+}
 
-// .card .cardLink a:link,
-// .card .cardLink a:visited {
-//     color: #F92E49;
-//     text-decoration: none;   
-// }
-
-// .card .cardLink a:hover {
-//     color: #252740;
-// }
+.card .cardLink a:hover {
+    color: #252740;
+}
 
 #projectsPage {
     margin: 50px 200px;
@@ -351,3 +373,10 @@ footer a:visited {
 footer a:hover {
     color: #252740;
 }
+
+p {
+    a {
+        font-weight: 600;
+    }
+}
+
