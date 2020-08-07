@@ -17,8 +17,8 @@ https://personal-bio-site-94a7c.web.app/
 * [Pete Stewart](https://github.com/petestewart72)
 
 ## Technologies Used
-[![Vanilla JavaScript](https://img.shields.io/badge/JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![SASS](https://img.shields.io/badge/-SASS-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![Firebase](https://img.shields.io/badge/-Firebase-2c9fcc?style=flat-square)](#) [![Axios](https://img.shields.io/badge/-Axios-2c9fcc?style=flat-square)](#)
 
 ### Backlog
-- [ ] Improve CSS stylization/appearance of page
+- [x] Improve CSS stylization/appearance of page
 - [ ] Fill with content as my skills are developed
