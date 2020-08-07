@@ -1,5 +1,5 @@
 
-{
+{ "projects": {
     "project1" : {
       "title": "COVID-19 Mayor Challenge",
       "screenshot": "https://raw.githubusercontent.com/petestewart72/mayorchallenge/master/screenshot.png",
@@ -7,8 +7,7 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://covid-mayor-challenge.web.app/",
-      "githubUrl": "https://github.com/petestewart72/mayorchallenge",
-      "order": 40
+      "githubUrl": "https://github.com/petestewart72/mayorchallenge"
     },
     "project2": {
       "title": "Hitchhiker's Guide Chat App",
@@ -17,8 +16,7 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://chatty-hitchhiker-66a0d.web.app/",
-      "githubUrl": "https://github.com/petestewart72/chatty-epsilon-hitchhiker",
-      "order": 50
+      "githubUrl": "https://github.com/petestewart72/chatty-epsilon-hitchhiker"
     },
     "project3": {
       "title": "Sweaty's Sweatpants Store",
@@ -27,8 +25,7 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://sweatys-b094a.web.app/",
-      "githubUrl": "https://github.com/petestewart72/pants-sweat-pants",
-      "order": 60
+      "githubUrl": "https://github.com/petestewart72/pants-sweat-pants"
     },
     "project4": {
       "title": "La Baguette Restaurant Manager",
@@ -37,27 +34,15 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://nutshell-moose.web.app/",
-      "githubUrl": "https://github.com/petestewart72/la-baguette",
-      "order": 30
+      "githubUrl": "https://github.com/petestewart72/la-baguette"
     },
     "project5": {
       "title": "PIИTEЯST",
       "screenshot": "https://raw.githubusercontent.com/petestewart72/pinterest/main/screenshots/screenshot1.png",
-      "description": "A single-page web app built with HTML, BOOTSTRAP, SASS, and JS that allows users who authenticate their account via Google sign-in to post images as 'pins' which are organized into 'boards'. This was built as an assignment during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
+      "description": "A single-page web app built with HTML, BOOTSTRAP, SASS, and JS that allows users to post images as 'pins' which are organized into 'boards'. This was built as an assignment during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://pinterest-bbffb.web.app/",
-      "githubUrl": "https://github.com/petestewart72/pinterest",
-      "order": 20
-    },
-    "project6": {
-      "title": "Jurrasic World",
-      "screenshot": "https://github.com/petestewart72/nutshell-reindeer/raw/main/src/assets/gifs/jurassic-world-site-demo-init.gif",
-      "description": "A simulated theme park management app that lets the user manage staff members, schedules, attractions and more. Supports Google login. This was built as griup project during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
-      "available": true,
-      "url": "https://nutshell-riendeer.web.app/",
-      "githubUrl": "https://github.com/petestewart72/jurassic-world",
-      "order": 10
+      "githubUrl": "https://github.com/petestewart72/pinterest"
     }
-  }
+}}
