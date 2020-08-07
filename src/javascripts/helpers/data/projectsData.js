@@ -13,6 +13,7 @@ const getProjectsData = () => new Promise((resolve, reject) => {
         projectsObjs[projectId].id = projectId;
         projects.push(projectsObjs[projectId]);
       });
+      projects.sort((a, b) => a.order - b.order);
       resolve(projects);
     })
     .catch((err) => reject(err));
