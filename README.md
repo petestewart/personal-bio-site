@@ -7,7 +7,7 @@ Currently it is merely a rough outline with minimal styling and content.
 
 
 ## Screenshot
-![screenshot](./screenshot.png)
+![screenshot](./screenshot.gif)
 
 
 ## Deployed Project
