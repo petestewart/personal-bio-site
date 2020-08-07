@@ -1,4 +1,5 @@
 import utils from '../helpers/utils';
+import mailto from './mailto';
 
 const revealMenu = () => {
   $('#console').addClass('go-dark');
@@ -16,10 +17,11 @@ const createNavbar = () => {
       <li><a href="#welcome-top">Home</li>
       <li><a href="#bio-top">About Me</a></li>
       <li><a href="#portfolio-top">Portfolio</li>
-      <li><a href="#">Contact Me</li>
+      <li id="menu-mail-link"></li>
     </ul>
   </div>`;
   utils.printToDom('#main-menu', navbar);
+  mailto.mailLink('#menu-mail-link', 'Contact Me');
   $('#menu-btn').click(revealMenu);
 };
 

@@ -3,6 +3,7 @@ import 'bootstrap';
 import projectsData from './helpers/data/projectsData';
 import navbar from './components/navbar';
 import utils from './helpers/utils';
+import mailto from './components/mailto';
 
 const createProjectCards = () => projectsData.getProjectsData()
   .then((projects) => {
@@ -35,9 +36,15 @@ const createProjectCards = () => projectsData.getProjectsData()
   })
   .catch((err) => { console.error(err); });
 
+const insertMailLink = () => {
+  mailto.mailLink('#top-mail-link', '<i class="fas fa-at">');
+  mailto.mailLink();
+};
+
 const init = () => {
   navbar.createNavbar();
   createProjectCards();
+  insertMailLink();
 };
 
 init();
