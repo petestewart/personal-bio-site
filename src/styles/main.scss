@@ -6,9 +6,10 @@
     margin: 0;
 }
 
+
 html {
     scroll-behavior: smooth;
-  }
+}
 
 body {
     background-color: black;
@@ -132,10 +133,15 @@ ul {
     // color: black;
 }
 #bio {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 5.5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 2vw;
+    // font-size: 4vh;
     font-size: 2rem;
         p {
+            // line-height: 4vw;   /* within paragraph */
+            // margin-bottom: 5.5vw; /* between paragraphs */
             line-height: 3rem;   /* within paragraph */
             margin-bottom: 3rem; /* between paragraphs */
             }
@@ -167,9 +173,10 @@ ul {
     .text1 {
         text-align: center;
         color: white;
-        font-size: 85px;
+        font-size: 7vw;
+        // font-size: 85px;
         font-weight: 700;
-        width: 100%;
+        width: 120%;
         letter-spacing: 4px;
         margin-bottom: 0px;
         background: black;
@@ -178,7 +185,8 @@ ul {
     }
 
     .text2 {
-        font-size: 30px;
+        font-size: 3vw;
+        // font-size: 30px;
         color: grey;
         animation: fadein 3s 1;
     }
@@ -310,10 +318,7 @@ nav ul li {
     text-align: center;
     padding: 15px;
     background-color: rgb(53, 53, 53);
-
-    img {
-        width: 250px;
-    }
+    min-width: 250px;
 }
 
 .portfolio-links {
@@ -342,7 +347,8 @@ nav ul li {
 
 .subheading {
     color: gray;
-    padding: 0px 150px 5px;
+    padding: 0px 0px 5px;
+    
 }
 
 #projectsGrid {
@@ -380,3 +386,44 @@ p {
     }
 }
 
+.container {
+    i {
+        font-size: 6vw;
+    }
+}
+
+// .tech-link {
+//     i {
+//         // font-size: 6vw !important;
+//         // max-width: 20px;
+//         // max-height: 10px;
+//         // font-size: calc(8px + (30px - 8px) * ((100vw - 375px) / (1600px - 375px)));
+//     }
+// }
+
+.portfolio-links {
+    width: 100% !important;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+      font-size: 12px;
+    }
+
+    #social-links {
+        // display: none;
+        // z-index: 2;
+        position: relative;
+        margin: 20px;
+        font-size: 1.7rem;
+        color: grey;
+        letter-spacing: .3rem;
+        i {
+            opacity: 0.7;
+        }   
+        i:hover {
+            opacity: 1;
+        }
+  }
+}
