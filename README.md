@@ -11,7 +11,7 @@ Currently it is merely a rough outline with minimal styling and content.
 
 
 ## Deployed Project
-https://petestewart.codes
+http://petestewart.codes
 
 ## Contributors
 * [Pete Stewart](https://github.com/petestewart72)
