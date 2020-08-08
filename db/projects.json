@@ -53,7 +53,7 @@
     "project6": {
       "title": "Jurrasic World",
       "screenshot": "https://github.com/petestewart72/nutshell-reindeer/raw/main/src/assets/gifs/jurassic-world-site-demo-init.gif",
-      "description": "A simulated theme park management app that lets the user manage staff members, schedules, attractions and more. Supports Google login. This was built as griup project during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
+      "description": "A simulated theme park management app that lets the user manage staff members, schedules, attractions and more. Supports Google login. This was built as group project during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://nutshell-riendeer.web.app/",
