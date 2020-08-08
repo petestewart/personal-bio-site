@@ -14,7 +14,7 @@ const createNavbar = () => {
   const navbar = `<div class="row justify-content-end"><i class="fas fa-bars fa-2x" id="menu-btn"></i></div>
   <div class="row">
     <ul class="hide" id="nav-menu">
-      <li><a href="#welcome-top">Home</li>
+      <li><a href="#top">Home</li>
       <li><a href="#bio-top">About Me</a></li>
       <li><a href="#portfolio-top">Portfolio</li>
       <li id="menu-mail-link"></li>
