@@ -363,21 +363,22 @@ nav ul li {
 }
 
 footer {
-    background-color: #FFEDDF;
+    background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 20px 100px;
+    font-size: 1.2rem;
 }
 
 footer a:link,
 footer a:visited {
-    color: black;
+    color: grey;
     text-decoration: none;   
 }
 
 footer a:hover {
-    color: #252740;
+    color: lightgrey ;
 }
 
 p {
@@ -427,3 +428,4 @@ p {
         }
   }
 }
+

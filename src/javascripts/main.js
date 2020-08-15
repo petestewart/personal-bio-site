@@ -38,7 +38,7 @@ const createProjectCards = () => projectsData.getProjectsData()
 
 const insertMailLink = () => {
   mailto.mailLink('#top-mail-link', '<i class="fas fa-at">');
-  mailto.mailLink();
+  mailto.mailLink('#btm-mail-link', '<i class="fas fa-at">');
 };
 
 const init = () => {
