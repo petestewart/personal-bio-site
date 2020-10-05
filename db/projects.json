@@ -2,32 +2,32 @@
 {
     "project1" : {
       "title": "COVID-19 Mayor Challenge",
-      "screenshot": "https://raw.githubusercontent.com/petestewart72/mayorchallenge/master/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/petestewart/mayorchallenge/master/screenshot.png",
       "description": "This web app was an attempt to simplify the presentation of the city of Nashville's official COVID-19 reopening plan by using cards and filter buttons for each phase of the plan to dynamically reprint the DOM.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://covid-mayor-challenge.web.app/",
-      "githubUrl": "https://github.com/petestewart72/mayorchallenge",
+      "githubUrl": "https://github.com/petestewart/mayorchallenge",
       "order": 40
     },
     "project2": {
       "title": "Hitchhiker's Guide Chat App",
-      "screenshot": "https://raw.githubusercontent.com/petestewart72/chatty-epsilon-hitchhiker/master/src/images/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/petestewart/chatty-epsilon-hitchhiker/master/src/images/screenshot.png",
       "description": "A HG2G-themed chatroom simulation app built as a group project assignment during my enrollment at Nashville Software School while we were learning to use modules and webpack.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://chatty-hitchhiker-66a0d.web.app/",
-      "githubUrl": "https://github.com/petestewart72/chatty-epsilon-hitchhiker",
+      "githubUrl": "https://github.com/petestewart/chatty-epsilon-hitchhiker",
       "order": 50
     },
     "project3": {
       "title": "Sweaty's Sweatpants Store",
-      "screenshot": "https://raw.githubusercontent.com/petestewart72/pants-sweat-pants/master/screenshots/screenshot1.jpg",
+      "screenshot": "https://raw.githubusercontent.com/petestewart/pants-sweat-pants/master/screenshots/screenshot1.jpg",
       "description": "A fictitious e-commerce site for a company that sells sweatpants built as a group project assignment during my enrollment at Nashville Software School while we were learning to use HTML, CSS, JavaScript, and Bootstrap.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
       "url": "https://sweatys-b094a.web.app/",
-      "githubUrl": "https://github.com/petestewart72/pants-sweat-pants",
+      "githubUrl": "https://github.com/petestewart/pants-sweat-pants",
       "order": 60
     },
     "project4": {
@@ -37,27 +37,37 @@
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://nutshell-moose.web.app/",
-      "githubUrl": "https://github.com/petestewart72/la-baguette",
+      "githubUrl": "https://github.com/petestewart/la-baguette",
       "order": 30
     },
     "project5": {
       "title": "PIИTEЯST",
-      "screenshot": "https://raw.githubusercontent.com/petestewart72/pinterest/main/screenshots/screenshot1.png",
+      "screenshot": "https://raw.githubusercontent.com/petestewart/pinterest/main/screenshots/screenshot1.png",
       "description": "A single-page web app built with HTML, BOOTSTRAP, SASS, and JS that allows users who authenticate their account via Google sign-in to post images as 'pins' which are organized into 'boards'. This was built as an assignment during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://pinterest-bbffb.web.app/",
-      "githubUrl": "https://github.com/petestewart72/pinterest",
+      "githubUrl": "https://github.com/petestewart/pinterest",
       "order": 20
     },
     "project6": {
       "title": "Jurrasic World",
-      "screenshot": "https://github.com/petestewart72/nutshell-reindeer/raw/main/src/assets/gifs/jurassic-world-site-demo-init.gif",
+      "screenshot": "https://github.com/petestewart/jurassic-world/raw/main/src/assets/gifs/jurassic-world-site-demo-init.gif",
       "description": "A simulated theme park management app that lets the user manage staff members, schedules, attractions and more. Supports Google login. This was built as group project during my enrollment at Nashville Software School while we were learning to use Firebase, Axios, and CRUD.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Firebase, Axios, Version Control with Github",
       "available": true,
       "url": "https://nutshell-riendeer.web.app/",
       "githubUrl": "https://github.com/petestewart72/jurassic-world",
       "order": 10
+    },
+    "project7": {
+      "title": "Black Food Nashville",
+      "screenshot": "https://media.giphy.com/media/JS5IcgsmNLNIJm6bj8/giphy.gif",
+      "description": "A single-page web application I created for users to be able to discover and support Black-owned restaurants in the Nashville area. I built this using React and REST API's from Yelp, MapQuest and Firebase as my front-end capstone project while enrolled at Nashville Software School.",
+      "technologiesUsed": "React, JavaScript, HTML, CSS, Firebase, Axios, Version Control with Github",
+      "available": true,
+      "url": "https://blackownednashville-1af30.web.app/",
+      "githubUrl": "https://github.com/petestewart/black-food-nashville",
+      "order": 5
     }
   }

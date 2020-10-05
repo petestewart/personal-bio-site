@@ -34,6 +34,7 @@ const createNavbar = () => {
         <li><a href="#top">Home</li>
         <li><a href="#bio-top">About Me</a></li>
         <li><a href="#portfolio-top">Portfolio</li>
+        <li><a href="https://petestewart.codes" target="_blank">Blog</li>
         <li id="menu-mail-link"></li>
       </ul>
   </div>`;
