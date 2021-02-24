@@ -23,7 +23,9 @@ const createProjectCards = () => projectsData.getProjectsData()
             <p class="card-text">${project.description}</p>
             <div class="portfolio-links mb-2">
             <a href="${project.githubUrl}" target="_blank" class="tech-link"><i class="fab fa-github fa-2x"></i></a>
-            <a href="${project.url}" target="_blank" class="tech-link"><i class="fas fa-desktop fa-2x"></i></a></div>
+            <a href="${project.url}" target="_blank" class="tech-link"><i class="fas fa-desktop fa-2x"></i></a>
+            ${project.youtubeUrl ? `<a href="${project.youtubeUrl}" target="_blank" class="tech-link"><i class="fab fa-youtube fa-2x"></i></a>` : ''}
+            </div>
             <p class="card-text"><small class="text-muted">${project.technologiesUsed}</small></p>
           </div>
         </div>
