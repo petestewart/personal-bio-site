@@ -69,5 +69,15 @@
       "url": "https://blackownednashville-1af30.web.app/",
       "githubUrl": "https://github.com/petestewart/black-food-nashville",
       "order": 5
+    },
+    "project8": {
+      "title": "ChatSync",
+      "screenshot": "https://github.com/petestewart/chatsync-client/raw/main/chatsync-preview.gif",
+      "description": "A full-stack 'spoiler-preventing' chat room app I created using React, Python and Django where users can host viewing party type events to discuss live TV shows in real time. The app calculates time differences in each user's stream to delay the display of new messages on their chat feeds to prevent spoilers.",
+      "technologiesUsed": "React, JavaScript, Python, Django, HTML, CSS, Firebase, Version Control with Github",
+      "available": true,
+      "url": "https://youtu.be/9XOqC5OOMCA",
+      "githubUrl": "https://github.com/petestewart/chatsync-client",
+      "order": 4
     }
   }
